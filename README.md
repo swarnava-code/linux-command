@@ -35,6 +35,7 @@ Press <enter> to keep the current choice[*], or type selection number:
 ```
 
 ## To check path
+```
 swarnava@swarnava-pc:~/Android/Sdk$ which java
 /usr/bin/java
 swarnava@swarnava-pc:~/Android/Sdk$ which appium
@@ -42,6 +43,7 @@ swarnava@swarnava-pc:~/Android/Sdk$ which appium
 swarnava@swarnava-pc:~/Android/Sdk$ which node
 /home/swarnava/.nvm/versions/node/v16.14.2/bin/node
 swarnava@swarnava-pc:~/Android/Sdk$ 
+```
 
 
 ## To kill a process
