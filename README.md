@@ -24,16 +24,11 @@ Download snap "android-studio" (119) from channel "stable"
 #### To find packages
 ```
 swarnava@swarnava-lenovo:~$ apt-cache search openjdk-8
-libreoffice - office productivity suite (metapackage)
-openjdk-8-dbg - Java runtime based on OpenJDK (debugging symbols)
-openjdk-8-demo - Java runtime based on OpenJDK (demos and examples)
-openjdk-8-doc - OpenJDK Development Kit (JDK) documentation
+...
 openjdk-8-jdk - OpenJDK Development Kit (JDK)
 openjdk-8-jdk-headless - OpenJDK Development Kit (JDK) (headless)
 openjdk-8-jre - OpenJDK Java runtime, using Hotspot JIT
-openjdk-8-jre-headless - OpenJDK Java runtime, using Hotspot JIT (headless)
-openjdk-8-jre-zero - Alternative JVM for OpenJDK, using Zero/Shark
-openjdk-8-source - OpenJDK Development Kit (JDK) source files
+...
 ```
 ```
 swarnava@swarnava-lenovo:~/Desktop$ apt-cache search "OpenJDK Development Kit"
@@ -50,6 +45,31 @@ swarnava@swarnava-lenovo:~$ sudo apt install openjdk-8-jdk openjdk-8-jre
 [sudo] password for swarnava: 
 ```
 
+# Install package using brew
+## Install Brew
+<img src="https://geekflare.com/wp-content/uploads/2021/05/homebrew-social-card-e1622042135386.png" align="left" height="100" width="150" >
+[Brew Home Page](https://brew.sh/)
+[stackoverflow instruction](https://stackoverflow.com/a/21536379/9125727)
+
+```
+swarnava@swarnava-lenovo:/$ brew doctor
+Your system is ready to brew.
+swarnava@swarnava-lenovo:/$ brew update
+...
+swarnava@swarnava-lenovo:/$ brew install node
+Running `brew update --preinstall`...
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manife
+....
+```
+
+```
+swarnava@swarnava-lenovo:/$ brew search appium
+==> Formulae
+appium
+swarnava@swarnava-lenovo:/$ brew install appium
+Running `brew update --preinstall`...
+==> Downloading https://ghcr.io/v2/homebrew/core/appium/mani
+```
 
 ## Switch to another pre-insstalled Java package(different version)
 
@@ -78,6 +98,10 @@ swarnava@swarnava-pc:~/Android/Sdk$ which node
 swarnava@swarnava-pc:~/Android/Sdk$ 
 ```
 
+## To extract
+```
+$ tar -xvf <filename.xz>
+```
 
 ## To kill a process
 #### $ ps aux | grep -i appium
