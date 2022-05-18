@@ -71,6 +71,16 @@ Running `brew update --preinstall`...
 ==> Downloading https://ghcr.io/v2/homebrew/core/appium/mani
 ```
 
+## To find any file     [ $ find -name "*keyword*" ]
+```
+swarnava@swarnava-lenovo:~$ find -name "*animation*"
+./Downloads/anim/animation-0004.png
+./Android/Sdk/sources/android-32/android/animation
+./Android/Sdk/platforms/android-32/data/res/anim/rotation_animation_jump_exit.xml
+./snap/snap-store/518/.local/share/icons/ubuntu-mono-dark/animations
+./.config/google-chrome/Profile 1/Extensions/kbfnbcaeplbcioakkpcpgfkobkghlhen/14.1061.0_1/src/images/0a1ea2295700633de888508806b4ba80/gdocs-signin-animation.gif
+```
+
 ## Switch to another pre-insstalled Java package(different version)
 
 #### $ sudo update-alternatives --config java
