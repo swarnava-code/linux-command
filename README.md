@@ -121,4 +121,20 @@ $ tar -xvf <filename.xz>
 ## To change mode of file
 ## sudo chmod +777 Appium-Server-GUI-linux-1.22.3.AppImage
 
+## To scale resolution of display
+Sometimes, some portion of the app is not visible. In that case, we can scale the screen to see the whole window of the app.
+Example App name : [Appium-Inspector-linux-2022.5.4.AppImage](https://github.com/appium/appium-inspector/releases).
+
+Zoom Out
+```
+swarnava@swarnava-lenovo:~/Android/Sdk$ xrandr --output eDP-1 --scale 1.2x1.2
+```
+Normal
+```
+swarnava@swarnava-lenovo:~/Android/Sdk$ xrandr --output eDP-1 --scale 1x1
+```
+Zoom In
+```
+swarnava@swarnava-lenovo:~/Android/Sdk$ xrandr --output eDP-1 --scale 0.8x0.8
+```
 
